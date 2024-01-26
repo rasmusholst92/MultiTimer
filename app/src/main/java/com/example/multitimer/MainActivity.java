@@ -94,7 +94,7 @@ public class MainActivity extends AppCompatActivity {
                 } else if (!isPaused) {
                     timerTextView.setText("00:00:00");
                     timerCompleted = true;
-                    pauseButton.setText(R.string.restart);
+                    pauseButton.setText(R.string.start);
                     pauseButton.setOnClickListener(v -> {
                         if (!isPaused && !timerCompleted) {
                             handler.removeCallbacks(this);
@@ -104,7 +104,7 @@ public class MainActivity extends AppCompatActivity {
                             remainingSeconds = totalSeconds;
                             timerCompleted = false;
                             isPaused = false;
-                            handler.postDelayed(this, 0);
+                            handler.postDelayed(this,0);
                             pauseButton.setText(R.string.pause);
                         } else {
                             isPaused = false;

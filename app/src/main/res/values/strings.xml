@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MultiTimer</string>
+    <string name="headline">Rasmus\' Timer App</string>
+    <string name="start">START</string>
+    <string name="stop">STOP</string>
+    <string name="delete">SLET</string>
+    <string name="add_timer">TILFØJ</string>
+    <string name="reset">RESET</string>
+    <string name="slet">SLET</string>
+    <string name="pause">PAUSE</string>
+    <string name="fortsaet">FORTSÆT</string>
+    <string name="restart">RESTART</string>
+</resources>
